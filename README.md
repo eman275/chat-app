@@ -16,4 +16,9 @@ A lightweight, interactive web-based chat widget that supports real-time message
 ---
 
 ## 📁 Project Structure
-
+/pidima-chat/
+│
+├── index.html # Main HTML file
+├── styles.css # Chat UI styles
+├── script.js # Core JavaScript logic
+└── README.md # You're here!
