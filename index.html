@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pidima Chat</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <button id="chat-toggle">💬</button>
+
+  <div class="chat-popup" id="chat-popup">
+    <header>
+      <h2>Pidima Chat</h2>
+      <button id="theme-toggle">🌓</button>
+    </header>
+
+    <div id="chat-history"></div>
+
+    <form id="chat-form">
+      <input type="file" id="file-input" hidden accept="image/*,.pdf" />
+      <button type="button" id="attach-btn">📎</button>
+      <button type="button" id="emoji-btn">😊</button>
+
+
+      <div id="emoji-picker">
+        <span>😀</span> <span>😄</span> <span>😁</span> <span>😆</span>
+        <span>😅</span> <span>😂</span> <span>🤣</span> <span>😊</span>
+        <span>😉</span> <span>😍</span> <span>😘</span> <span>😎</span>
+        <span>🤔</span> <span>😢</span> <span>😭</span> <span>😡</span>
+        <span>👍</span> <span>👏</span> <span>🙏</span> <span>💯</span>
+      </div>
+
+      <input type="text" id="chat-input" placeholder="Type a message..." autocomplete="off" />
+      <button type="submit">➤</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
